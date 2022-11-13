@@ -25,3 +25,8 @@ a {
     cursor: url('../../img/cursor.png'), auto;
     
   }
+  .wrapper{
+    box-shadow: 0px 3px 4px rgb(0, 0, 0);
+    
+}
+
