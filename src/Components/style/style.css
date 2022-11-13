@@ -1,0 +1,27 @@
+.widthMinimum{
+    min-width: 200px;;
+}
+.sizeName{
+    font-size: 16px;
+}
+.typeFace{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+.background{
+background: rgb(34,113,195);
+background: linear-gradient(93deg, rgba(34,113,195,0.944437149859944) 0%, rgba(36,178,200,1) 21%, rgba(36,195,202,1) 25%, rgba(38,180,210,1) 39%, rgba(39,172,214,1) 48%, rgba(44,241,103,0.8968181022408963) 92%, rgba(45,253,69,0.9472382703081232) 100%);
+
+}
+.bold{
+    font-weight: bold;
+}
+.footerBackground{
+    background-color: #000507;
+    color: white;
+    
+}
+a {
+    cursor: url('../../img/cursor.png'), auto;
+    
+  }
