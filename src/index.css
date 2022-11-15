@@ -9,8 +9,8 @@ html {
 }
 
 :root {
-	--color-primary: #08b2c9;
-	--color-secondary: #28527a;
+	--color-primary: #4dc6d6;
+	--color-secondary: #03223f;
 	--color-light: #dbf6e9;
 	--color-dark: #151515;
 }
@@ -173,3 +173,6 @@ button{
   cursor: url('./img/cursor.png'), auto;
 }
 
+.page-item{
+  cursor: url('./img/cursor.png'), auto;
+}
