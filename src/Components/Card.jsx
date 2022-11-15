@@ -18,7 +18,7 @@ const Card = ({ personaje }) => {
 
 				<h2>{personaje.name}</h2>
 				<p>
-					{personaje.species} <span>-</span> {personaje.gender}
+					{personaje.species}  {personaje.gender}
 				</p>
 				<p>
 				{personaje.location.name} 

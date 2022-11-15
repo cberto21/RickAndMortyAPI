@@ -27,6 +27,8 @@ body {
 	max-width: 120rem;
 	padding: 0 2rem;
 	margin: 0 auto;
+	transform-style: preserve-3d;
+	
 }
 
 .logo {
@@ -176,3 +178,53 @@ button{
 .page-item{
   cursor: url('./img/cursor.png'), auto;
 }
+
+
+.container .personaje {
+	align-items: center;
+	
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	
+	justify-content: center;
+	
+	overflow: hidden;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: background-color 0.5s ease,
+				color 0.5s ease,
+				transform 0.5s ease;
+	
+  }
+  
+  .container:hover .personaje,
+  .container:focus .personaje,
+  .container:active .personaje {
+	transform: perspective(500px) rotateY(30deg);
+  }
+  
+  .container .personaje:hover,
+  .container .personaje:focus,
+  .container .personaje:active {
+	transform: perspective(500px) rotateY(0);
+  }
+  
+  .container .personaje:hover ~ .personaje,
+  .container .personaje:focus ~ .personaje,
+  .container .personaje:active ~ .personaje {
+	transform: perspective(500px) rotateY(-30deg);
+  }
+  
+  .container .personaje span {
+	
+	border-radius: 50%;
+	
+	
+	
+	
+	text-align: center;
+	transition: box-shadow 0.5s ease;
+	
+  }
+  
